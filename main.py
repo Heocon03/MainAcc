@@ -9,7 +9,7 @@ import base64
 client=commands.Bot(command_prefix=':', self_bot=True, help_command=None)
 
 GUILD_ID = 1028303707684749423
-CHANNEL_ID = 1040236623541051463
+CHANNEL_ID = 1040238927187038228
 
 rtoken = os.getenv("RTOKEN")
 header = {"Authorization": "Bearer {}".format(rtoken)}
